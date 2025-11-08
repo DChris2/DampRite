@@ -1,87 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Learn about Damp – DampRite</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learn About Damp — DampRite</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#e6f0ff">
+  <link rel="icon" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/icon-192.png">
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/script.js"></script>
 </head>
 <body>
+  <header class="header">
+    <img src="/assets/DampRite_251108_201012.jpg" alt="DampRite">
+  </header>
+  <nav class="toplinks">
+    <a href="/index.html">Home</a>
+    <a href="/learn.html">Learn About Damp</a>
+    <a id="contactLink" href="#">Contact us</a>
+  </nav>
   <div class="container">
-    <header class="header">
-      <div class="brand">
-        <img src="images/droplet.png" alt="DampRite">
-        <span>DampRite</span>
-      </div>
-      <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="learn.html">Learn</a>
-        <a id="contact-pill" class="contact-pill" onclick="revealEmail()">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 8l8 5 8-5" stroke="#7db9de" stroke-width="1.5"/><rect x="3" y="6" width="18" height="12" rx="2" stroke="#7db9de" stroke-width="1.5"/></svg>
-          Contact us
-        </a>
-      </nav>
-    </header>
-
-    <div class="hidden-email" id="hidden-email"></div>
-
-    <main class="card" style="margin-top:22px">
-      <h1>Learn about Damp</h1>
-      <p class="lead">A quick, practical guide to the most common causes of damp and how to address them safely and effectively.</p>
-
-      <div class="section">
-        <h2>History of DPC (Damp-Proof Course)</h2>
-        <p class="sub">Damp-proof courses became common in UK housebuilding in the late 19th to early 20th century, evolving from slate and bitumen layers to modern chemical and membrane systems. Their purpose remains the same: stop moisture from wicking upward through capillary action.</p>
-      </div>
-
-      <div class="section">
-        <h2>The Three Types of Damp</h2>
-        <h3>1) Rising Damp</h3>
-        <ul>
-          <li><strong>Signs:</strong> Tide marks, salts (white powder), crumbling skirting, paint blistering at low level.</li>
-          <li><strong>Causes:</strong> Failed or bridged DPC, high external ground levels, saturated masonry.</li>
-          <li><strong>Prevention/Fix:</strong> Lower ground levels, clear air bricks, repair/insert DPC, breathable plasters, controlled drying.</li>
-        </ul>
-        <h3>2) Penetrating Damp</h3>
-        <ul>
-          <li><strong>Signs:</strong> Damp patches on walls/ceilings after rain, localised staining, decayed timber.</li>
-          <li><strong>Causes:</strong> Leaks, cracked render, porous brick/stone, failed flashing, blocked gutters.</li>
-          <li><strong>Prevention/Fix:</strong> Maintain roofs/gutters, repoint or repair render, seal penetrations, selective masonry treatment.</li>
-        </ul>
-        <h3>3) Condensation</h3>
-        <ul>
-          <li><strong>Signs:</strong> Black mould, window condensation, musty smells, cold corners.</li>
-          <li><strong>Causes:</strong> High humidity, cold surfaces, poor ventilation or heating patterns.</li>
-          <li><strong>Prevention/Fix:</strong> Extract fans, background ventilation, consistent gentle heating, reduce moisture generation, consider dehumidification.</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>Weather, Ventilation & Health</h2>
-        <p>Cold, wet spells increase risk. Airflow helps fabric stay dry; keep vents and air bricks clear of any vegetation preventing air from reaching the wall. Protect residents, especially children and those with respiratory conditions: use PPE when cleaning mould and avoid dry-scrubbing.</p>
-      </div>
-
-      <div class="section">
-        <h2>Recommended Products (Affiliate placeholders)</h2>
-        <ul class="small">
-          <li>Moisture Meter — <a class="link" href="#" onclick="alert('Replace with your Amazon affiliate link')">View on Amazon (Affiliate placeholder)</a></li>
-          <li>Anti-Mould Wash — <a class="link" href="#" onclick="alert('Replace with your Amazon affiliate link')">View on Amazon (Affiliate placeholder)</a></li>
-          <li>Breathable Repair Mortar — <a class="link" href="#" onclick="alert('Replace with your Amazon affiliate link')">View on Amazon (Affiliate placeholder)</a></li>
-        </ul>
-      </div>
-
-      <div class="section small">
-        <strong>Disclaimer.</strong> Educational guidance only; not a substitute for professional inspection. Affiliate links may pay a small commission. No photos or emails are stored or shared.
-      </div>
-    </main>
-
-    <section class="footer">
-      <div class="small">
-        Need more help? Click “Contact us” to reveal the address.
-      </div>
-    </section>
+    <div class="card">
+      <h1>Three Common Types of Damp</h1>
+      <h3>1) Rising Damp</h3>
+      <p>Moisture travels up from the ground through capillaries in masonry. Often seen as tide marks, salt deposits, and damaged skirtings.</p>
+      <h3>2) Penetrating Damp</h3>
+      <p>Water ingress through defects: cracked render, porous brick, leaks, failed pointing, or bridging. Can occur on any level.</p>
+      <h3>3) Condensation</h3>
+      <p>Humidity condenses on cold surfaces, frequently behind furniture and in corners. Look for mould and peeling paint.</p>
+    </div>
+    <div class="card">
+      <h2>Improving Ventilation & Vegetation Control</h2>
+      <p>Keep air paths clear and reduce any vegetation preventing air getting to external walls. This helps moisture evaporate and reduces mould risk.</p>
+    </div>
+    <div class="card">
+      <h2>Brief History of DPC</h2>
+      <p>Damp-proof courses (DPCs) became common in the late 19th and early 20th centuries in the UK, using slate, bitumen, or modern membranes to block capillary rise.</p>
+    </div>
+    <div class="footer">
+      Guidance only — always verify on site. <span id="contactEmail" class="hidden"> Contact: <a href="mailto:dampriterelay@gmail.com">dampriterelay@gmail.com</a></span>
+    </div>
   </div>
-
-<script src="script.js"></script>
+  <script>
+    document.getElementById('contactLink').addEventListener('click', function(e){ e.preventDefault(); document.getElementById('contactEmail').classList.remove('hidden'); window.scrollTo({top:document.body.scrollHeight, behavior:'smooth'}); });
+    if('serviceWorker' in navigator){ window.addEventListener('load', ()=>{ navigator.serviceWorker.register('/service-worker.js'); }); }
+  </script>
 </body>
 </html>
